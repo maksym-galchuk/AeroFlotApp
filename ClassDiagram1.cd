@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AeroFlotApp.Flight">
+    <Position X="7.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAIAAkAAQAAgBCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Flight.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FlightSchedule" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AeroFlotApp.FlightSchedule">
+    <Position X="7.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAAACAAAAmAAAAIQAAACAAEAABAAAAQAAEAA=</HashCode>
+      <FileName>FlightSchedule.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainForm" />
+      <Property Name="FileHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AeroFlotApp.FlightsGenerator">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAAAAAAAAAAAAAAAQAAAAAIAAAAACgAA=</HashCode>
+      <FileName>FlightsGenerator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AeroFlotApp.MainForm">
+    <Position X="10.75" Y="4" Width="2.75" />
+    <Members>
+      <Field Name="buttonBookTickets" Hidden="true" />
+      <Field Name="buttonFindClosestFlight" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridViewFlights" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn1" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn2" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn3" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn4" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn5" Hidden="true" />
+      <Field Name="dataGridViewTextBoxColumn6" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="textBoxDestination" Hidden="true" />
+      <Field Name="textBoxTickets" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACACAAAAADAIAACDEACAAAACgAAAGAAAABADAAAAAAQ=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AeroFlotApp.FileHandler">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAABAAAAAAAAAAAAEAEAAAAAAAAAAA=</HashCode>
+      <FileName>FileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
